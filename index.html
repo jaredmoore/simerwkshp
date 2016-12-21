@@ -46,7 +46,6 @@
           <div class="menu-toggle">Menu</div>  
           <ul class="srt-menu" id="menu-main-navigation">
               <li class="current"><a href="index.html">Home page</a></li>
-              <li><a class="twitter-follow-button" href="https://twitter.com/SimER2017">Follow @SimER2017</a></li>
               <!--<li><a href="basic-internal.html">Internal page demo</a></li>-->
               <!--<li><a href="#">menu item 3</a>
                   <ul>
@@ -69,6 +68,7 @@
               </li>-->
           </ul>     
 		</nav><!-- end main navigation -->
+    <a class="twitter-follow-button" href="https://twitter.com/SimER2017">Follow @SimER2017</a>
   
     </header><!-- end header -->
  
@@ -167,6 +167,23 @@ The field of evolutionary robotics, which has grown tremendously in the past few
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.0.min.js">\x3C/script>')</script>
 
 <script defer src="js/flexslider/jquery.flexslider-min.js"></script>
+
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
 
 <!-- fire ups - read this file!  -->   
 <script src="js/main.js"></script>
