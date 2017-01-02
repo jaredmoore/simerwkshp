@@ -38,7 +38,7 @@
     <header class="wrapper clearfix">
 		       
         <div id="banner">        
-        	<div id="logo"><a href="index.html"><img src="images/gecco.png" alt="logo"></a></div> 
+        	<div id="logo"><a href="index.html"><img src="images/gecco_small.png" alt="logo"></a></div> 
         </div>
         
         <!-- main navigation -->
@@ -68,6 +68,7 @@
               </li>-->
           </ul>     
 		</nav><!-- end main navigation -->
+    <a class="twitter-follow-button" href="https://twitter.com/SimER2017">Follow @SimER2017</a>
   
     </header><!-- end header -->
  
@@ -81,17 +82,17 @@
             <h1>SimER: Simulation in Evolutionary Robotics</h1>
             <p>The aim of the workshop is to conduct a survey of the simulation engines used by researchers in the field of evolutionary robotics highlighting current state-of-the-art, issues, enhancements and future directions.
             </p>
-            <p><a href="#" class="buttonlink">Call for Papers</a></p>
+            <p><a href="simer_cfp_1.pdf" class="buttonlink">Call for Papers</a></p>
         </div>
         <div class="grid_7 rightfloat">
               <div class="flexslider">
                   <ul class="slides">
                       <li>
-                          <img src="images/basic-pic1.jpg" />
+                          <img src="images/robots/ode_worm_1.png" />
                           <p class="flex-caption">Open Dynamics Engine</p>
                       </li>
                       <li>
-                          <a href="http://www.prowebdesign.ro"><img src="images/basic-pic2.jpg" /></a>
+                          <img src="images/robots/ros_gazebo_basicbot_simulation_resized.png" /></a>
                           <p class="flex-caption">ROS/Gazebo.</p>
                       </li>
                   </ul>
@@ -114,7 +115,7 @@
       <div class="row">	
         <div class="grid_4">
         	<h1 class="first-header">Important Dates</h1>
-            <img src="images/basic-pic1.jpg" />
+            <!--<img src="images/basic-pic1.jpg" />-->
             <p>**Tentative**</p>
             <p>Submission Deadline: March 5, 2017</p>
             <p>Author Notification: March 26, 2017</p>
@@ -124,14 +125,14 @@
         
         <div class="grid_4">
         	<h1 class="first-header">Submissions</h1>
-            <img src="images/basic-pic2.jpg" />
+            <!-- <img src="images/basic-pic2.jpg" /> -->
             <p>All submissions should be a maximum of four pages using the GECCO format.</p>
             <p>Email submissions (in PDF) to the workshop chair, Jared Moore at moorejar@gvsu.edu.</p>
         </div>
         
         <div class="grid_4">
         	<h1 class="first-header">Organizers</h1>
-            <img src="images/basic-pic3.jpg" />
+            <!-- <img src="images/basic-pic3.jpg" /> -->
             <p>Jared Moore, Grand Valley State University</p>
             <p>Anthony Clark, Missouri State University</p>
         </div>
@@ -166,6 +167,23 @@ The field of evolutionary robotics, which has grown tremendously in the past few
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.0.min.js">\x3C/script>')</script>
 
 <script defer src="js/flexslider/jquery.flexslider-min.js"></script>
+
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
 
 <!-- fire ups - read this file!  -->   
 <script src="js/main.js"></script>
